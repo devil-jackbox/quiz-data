@@ -1438,7 +1438,7 @@ subcategory: "10-miscellaneous",
 tags: [],
 text: "Arrange the following corticosteroids in the order of increasing t1/2 (low to high).<br><br>1.\tDexamethasone\n2.\tHydrocortisone\n3.\tBetamethasone\n4.\tPrednisolone",
 options: [{"id": "A", "text": "3, 4, 1, 2", "is_correct": false}, {"id": "B", "text": "2, 3, 4, 1", "is_correct": false}, {"id": "C", "text": "2, 3, 1, 4", "is_correct": false}, {"id": "D", "text": "2, 4, 1, 3", "is_correct": true}],
-explanation: "$19",
+explanation: "Corticosteroids are classified by duration of action based on their plasma half-life (t1/2), which correlates with their potency and HPA-axis suppressive effect.<br><br>Half-life based classification:<br><br>* **Hydrocortisone** – Short-acting, t1/2 ≈ 8–12 hours\n* **Prednisolone** – Intermediate-acting, t1/2 ≈ 12–36 hours\n* **Dexamethasone** – Long-acting, t1/2 ≈ 36–54 hours\n* **Betamethasone** – Long-acting, t1/2 ≈ 36–54 hours, generally considered slightly longer-acting than dexamethasone in clinical use<br><br>This gives the increasing order: Hydrocortisone (2) → Prednisolone (4) → Dexamethasone (1) → Betamethasone (3), i.e., 2, 4, 1, 3.<br><br>Why other options are incorrect:<br><br>* Options A, B, and C all place hydrocortisone (the shortest-acting agent) out of the first position, or place the long-acting agents (dexamethasone/betamethasone) before the intermediate-acting prednisolone, which is inconsistent with their known half-lives.",
 images: []
 },
 {
@@ -1798,7 +1798,7 @@ subcategory: "11-pyqs",
 tags: ["PYQ", "INI-CET May 2025"],
 text: "A 4-month-old infant is brought to the dermatology OPD with intense itching, especially at night. On examination, there are multiple excoriated papules and burrows seen over the palms, soles, and trunk. A clinical diagnosis of scabies is made. The pediatrician plans to initiate topical therapy. Which of the following drugs are appropriate and safe for use in infants with scabies? \n1. Permethrin 5% cream\n2. Benzyl benzoate 25% lotion\n3. Crotamiton 10% cream\n4. Ivermectin",
 options: [{"id": "A", "text": "1 and 2", "is_correct": false}, {"id": "B", "text": "1, 3 and 4", "is_correct": false}, {"id": "C", "text": "1 and 3", "is_correct": true}, {"id": "D", "text": "2 and 4", "is_correct": false}],
-explanation: "$19",
+explanation: "Scabies in infants requires careful drug selection, since several first-line scabicides used in adults are unsafe in this age group due to risk of systemic absorption and neurotoxicity.<br><br>Why Permethrin and Crotamiton are appropriate:<br><br>* **Permethrin 5% cream** is the treatment of choice for scabies in infants and young children, including those under 2 months in many guidelines, due to minimal systemic absorption and a good safety profile.\n* **Crotamiton 10% cream** is also considered safe in infants; it has both scabicidal and antipruritic properties, making it useful for itching, though it is somewhat less effective than permethrin.<br><br>Why other options are incorrect:<br><br>* Benzyl benzoate 25% lotion: Causes significant skin irritation and burning, and is generally avoided in infants and young children due to poor tolerability and risk of percutaneous absorption.\n* Ivermectin: Oral ivermectin is contraindicated in children weighing less than 15 kg (typically under 5 years of age), since safety data in this group, especially regarding CNS penetration through an immature blood-brain barrier, is insufficient.",
 images: []
 },
 {
