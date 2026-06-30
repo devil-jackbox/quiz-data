@@ -48,7 +48,7 @@ subcategory: "01-epidemiology",
 tags: [],
 text: "A district uses weekly reporting from selected health facilities that represent larger areas to track trends in influenza-like illness, rather than collecting from every facility. This is best described as:",
 options: [{"id": "A", "text": "Sentinel surveillance", "is_correct": true}, {"id": "B", "text": "Passive surveillance", "is_correct": false}, {"id": "C", "text": "Active case search for every household", "is_correct": false}, {"id": "D", "text": "Syndromic surveillance only", "is_correct": false}],
-explanation: "$19",
+explanation: "Surveillance systems are classified based on how data is collected and from where.<br><br>Why sentinel surveillance is correct:<br><br>* **Sentinel surveillance** uses a network of selected, representative reporting sites (rather than every facility) to monitor trends in a disease over time, which is ideal for tracking patterns like influenza-like illness without the burden of universal reporting.<br><br>Why other options are incorrect:<br><br>* Passive surveillance: Relies on **routine reporting by all facilities** as part of the standard health information system, not selected representative sites.\n* Active case search: Involves **field workers actively visiting every household**, which is resource-intensive and not what is described here.\n* Syndromic surveillance only: Refers to monitoring **based on symptom clusters** rather than the sampling strategy of selected sites described in the question.",
 images: []
 },
 {
@@ -78,7 +78,7 @@ subcategory: "01-epidemiology",
 tags: [],
 text: "A 52-year-old pesticide factory worker develops unexplained restrictive lung disease. The occupational medicine unit suspects that asbestos exposure is a necessary component cause for this disease in this cluster, but not sufficient by itself. Which causal model best explains that multiple \u201ccomponent causes\u201d together form a \u201csufficient cause,\u201d and removing 1 component can prevent disease in some individuals?",
 options: [{"id": "A", "text": "Iceberg phenomenon", "is_correct": false}, {"id": "B", "text": "Rothman causal pie model", "is_correct": true}, {"id": "C", "text": "Bradford Hill viewpoints only", "is_correct": false}, {"id": "D", "text": "Koch postulates", "is_correct": false}],
-explanation: "$1a",
+explanation: "Causal inference models help explain how multiple factors interact to produce disease, and Rothman's model is specifically designed to illustrate multicausality.<br><br>Why Rothman's causal pie model is correct:<br><br>* **Rothman's sufficient-component cause model** depicts disease causation as a \"pie,\" where each sufficient cause is made up of several component causes; removing even one component (like asbestos exposure) can prevent that particular pie from being completed, thereby preventing disease in some individuals.<br><br>Why other options are incorrect:<br><br>* Iceberg phenomenon: Describes the **proportion of subclinical to clinical disease** in a population, not a causal framework.\n* Bradford Hill viewpoints: Provide **criteria to judge whether an association is causal**, not a model of how multiple causes combine.\n* Koch's postulates: Establish a **single microorganism as the cause of a specific disease**, which doesn't apply to multifactorial, non-infectious conditions like this one.",
 images: []
 },
 {
@@ -288,7 +288,7 @@ subcategory: "01-epidemiology",
 tags: [],
 text: "Which of the following is true about the steps of acute flaccid paralysis (AFP) surveillance?",
 options: [{"id": "A", "text": "Fecal samples should arrive at the lab within 48 hours of collection", "is_correct": false}, {"id": "B", "text": "All children with AFP should be tested within 72 hours of onset", "is_correct": false}, {"id": "C", "text": "Detect atleast 1 case of AFP/100000 children under 15 years", "is_correct": true}, {"id": "D", "text": "Fecal specimens should be transported at -2\u00b0C", "is_correct": false}],
-explanation: "$1b",
+explanation: "Acute flaccid paralysis (AFP) surveillance is a key strategy under the polio eradication program, with WHO-defined performance indicators.<br><br>Why detecting at least 1 case/100,000 children under 15 is correct:<br><br>* This is the **WHO benchmark non-polio AFP rate**, used as an indicator of surveillance sensitivity; achieving this rate confirms the system is sensitive enough to detect true polio cases if they occur.<br><br>Why other options are incorrect:<br><br>* Fecal samples should arrive at the lab within **72 hours**, not 48 hours, of collection.\n* Children with AFP should be investigated **within 48 hours of notification/onset**, not tested within 72 hours as stated.\n* Fecal specimens should be transported using a **reverse cold chain (4\u20138\u00b0C)**, not at -2\u00b0C, to preserve the virus for isolation.",
 images: []
 },
 {
@@ -328,7 +328,7 @@ subcategory: "01-epidemiology",
 tags: [],
 text: "Researchers are studying the relationship between essential hypertension and a common mutation in the structure of a sodium channel protein. A study population is randomly selected and blood samples are obtained for leukocyte genotyping. The prevalence of hypertension is determined based on mean blood pressure measurements obtained using standardized ambulatory blood pressure monitoring conducted over 1 week. Based on the analysis results, the researchers conclude that the sodium channel structure mutation is associated with hypertension. Which of the following best describes the study design used by the investigators?",
 options: [{"id": "A", "text": "Case-control study", "is_correct": false}, {"id": "B", "text": "Cross-sectional study", "is_correct": true}, {"id": "C", "text": "Prospective cohort study", "is_correct": false}, {"id": "D", "text": "Randomized clinical trial", "is_correct": false}],
-explanation: "",
+explanation: "Identifying the study design requires looking at the timing of exposure and outcome measurement relative to each other.<br><br>Why this is a cross-sectional study:<br><br>* **Exposure (genotype) and outcome (hypertension prevalence) are measured simultaneously**, in a single random sample of the population at one point in time, which is the defining feature of a cross-sectional design.\n* The study calculates **prevalence** (not incidence), which is characteristic of cross-sectional rather than cohort designs.<br><br>Why other options are incorrect:<br><br>* Case-control study: Would require **selecting participants based on outcome status** (hypertensive vs. non-hypertensive) and looking backward for exposure, not random sampling with simultaneous measurement.\n* Prospective cohort study: Requires **following exposed and unexposed groups forward in time** to measure incidence, which is not done here.\n* Randomized clinical trial: Requires **active intervention and randomization**, neither of which occurs in this observational study.",
 images: []
 },
 {
@@ -538,7 +538,7 @@ subcategory: "01-epidemiology",
 tags: ["ZVRecommended", "PYQ", "NEET PG 2025"],
 text: "A patient was admitted to the hospital with COVID-19 and died 15 days later due to the illness. His death was reported through the official health reporting system. According to surveillance definitions, this type of reporting represents which form of surveillance?",
 options: [{"id": "A", "text": "Active surveillance", "is_correct": false}, {"id": "B", "text": "Passive surveillance", "is_correct": true}, {"id": "C", "text": "Sentinel surveillance", "is_correct": false}, {"id": "D", "text": "Syndromic surveillance", "is_correct": false}],
-explanation: "$19",
+explanation: "Distinguishing surveillance types depends on how and through what channel the data reaches the health system.<br><br>Why passive surveillance is correct:<br><br>* **Passive surveillance** relies on routine reporting of cases or deaths by healthcare facilities through the standard, official health information/reporting system, without active prompting by health authorities, exactly as described for this COVID-19 death.<br><br>Why other options are incorrect:<br><br>* Active surveillance: Requires **health authorities to actively seek out cases**, such as through field visits or direct contact with facilities, rather than waiting for routine reports.\n* Sentinel surveillance: Involves **only a selected network of representative reporting sites**, not the entire official reporting system.\n* Syndromic surveillance: Tracks **disease based on symptom patterns/syndromes** rather than confirmed diagnosis-based mortality reporting.",
 images: []
 },
 {
@@ -558,7 +558,7 @@ subcategory: "01-epidemiology",
 tags: ["Controversial", "ZVRecommended", "PYQ", "NEET PG 2025"],
 text: "In a district, an intervention-based trial is being conducted on Neonatal sepsis. 20 PHCs were randomly chosen to follow the Standard treatment, and 20 PHCs were chosen for Community based treatment strategy. This is which type of epidemiological study design?",
 options: [{"id": "A", "text": "Clustered randomised controlled trial", "is_correct": true}, {"id": "B", "text": "Quasi-experimental study", "is_correct": false}, {"id": "C", "text": "Cross sectional study", "is_correct": false}, {"id": "D", "text": "Case control study", "is_correct": false}],
-explanation: "$1a",
+explanation: "Recognizing study designs depends on what unit is being randomized to intervention versus control.<br><br>Why clustered randomised controlled trial is correct:<br><br>* In a **clustered RCT**, entire groups or clusters (here, PHCs) rather than individual patients are randomized to different treatment strategies, which is appropriate when the intervention (a community-based treatment strategy) is delivered at the facility/community level rather than to individuals.<br><br>Why other options are incorrect:<br><br>* Quasi-experimental study: Involves **assignment to groups without true randomization**, whereas this study explicitly uses random allocation of PHCs.\n* Cross-sectional study: Is a **purely observational design measuring prevalence at one time point**, not an interventional trial comparing treatment strategies.\n* Case-control study: Compares **individuals with and without an outcome**, retrospectively examining exposure, which does not match this prospective interventional design.",
 images: []
 },
 {
@@ -568,7 +568,7 @@ subcategory: "01-epidemiology",
 tags: ["PYQ", "NEET PG 2025"],
 text: "A research study finds that using mammography for breast cancer screening appears to improve outcomes by increasing 5-year survival rates. However, post-mortem data show no real reduction in overall mortality. This apparent improvement in survival, despite unchanged mortality, is an example of which of the following epidemiological biases?",
 options: [{"id": "A", "text": "Hawthorne bias", "is_correct": false}, {"id": "B", "text": "Pygmalion bias", "is_correct": false}, {"id": "C", "text": "Berkesonian bias", "is_correct": false}, {"id": "D", "text": "Lead time bias", "is_correct": true}],
-explanation: "$1b",
+explanation: "Screening studies can show misleading improvements in survival statistics due to specific biases inherent to early detection.<br><br>Why lead time bias is correct:<br><br>* **Lead time bias** occurs when screening detects disease earlier in its natural course, making the time from diagnosis to death (survival time) appear longer, even though the actual time of death and overall disease course (and mortality) remain unchanged \u2014 exactly matching the scenario where mortality is unaffected despite improved 5-year survival.<br><br>Why other options are incorrect:<br><br>* Hawthorne bias: Occurs when **participants alter behavior because they know they're being studied**, unrelated to screening timing.\n* Pygmalion bias: Refers to **observer expectations influencing outcomes** (a form of bias in measurement), not the screening time-shift described here.\n* Berkesonian bias: A type of **selection bias arising from differential hospital admission rates**, not related to the apparent survival benefit from early detection.",
 images: []
 },
 {
@@ -588,7 +588,7 @@ subcategory: "01-epidemiology",
 tags: ["ZVRecommended", "PYQ", "NEET PG 2025"],
 text: "Arrange the following steps of a Randomised controlled trial in sequential order: \n1.\tManipulation\n2.\tStatistical analysis\n3.\tFollow-up\n4.\tRandomisation",
 options: [{"id": "A", "text": "1-4-3-2", "is_correct": false}, {"id": "B", "text": "1-4-2-3", "is_correct": false}, {"id": "C", "text": "4-1-3-2", "is_correct": true}, {"id": "D", "text": "4-1-2-3", "is_correct": false}],
-explanation: "$1c",
+explanation: "The standard sequence of steps in a randomized controlled trial follows a logical experimental order from group assignment to data analysis.<br><br>Why 4-1-3-2 is correct:<br><br>* **Randomisation (4)** comes first to allocate participants to groups, followed by **manipulation (1)**, the actual intervention/treatment administration; then **follow-up (3)** to observe outcomes over time, and finally **statistical analysis (2)** to compare results between groups, which is the standard sequential flow of any RCT.<br><br>Why other options are incorrect:<br><br>* 1-4-3-2, 1-4-2-3: Both incorrectly place **manipulation before randomisation**, but participants must be randomized into groups before any intervention is applied.\n* 4-1-2-3: Incorrectly places **statistical analysis before follow-up**, but outcome data can only be analyzed after the follow-up period has been completed.",
 images: []
 },
 {
@@ -678,7 +678,7 @@ subcategory: "01-epidemiology",
 tags: ["PYQ", "INI-CET Nov 2024"],
 text: "A 2-year-old child presented to OPD of a PHC Watery diarrhoea having severe dehydration. Most likely causative agent underlying would be:",
 options: [{"id": "A", "text": "Shigella", "is_correct": false}, {"id": "B", "text": "E.Coli O157:H7", "is_correct": false}, {"id": "C", "text": "Rota virus", "is_correct": true}, {"id": "D", "text": "Salmonella", "is_correct": false}],
-explanation: "$1d",
+explanation: "Identifying the most likely pathogen in pediatric diarrhea depends on the typical age group and severity of presentation.<br><br>Why rotavirus is correct:<br><br>* **Rotavirus** is the single most common cause of severe, watery diarrhea with dehydration in children under 5 years globally, particularly affecting children under 2 years, and is responsible for the majority of hospitalizations for acute gastroenteritis in this age group.<br><br>Why other options are incorrect:<br><br>* Shigella: Typically causes **dysenteric (bloody, mucoid) diarrhea** with high fever, not isolated watery diarrhea.\n* E. coli O157:H7: Associated with **bloody diarrhea and hemolytic uremic syndrome**, not the classic watery presentation described here.\n* Salmonella: Usually causes **inflammatory diarrhea with fever**, and is a less common cause of severe watery dehydration compared to rotavirus in this age group.",
 images: []
 },
 {
@@ -688,7 +688,7 @@ subcategory: "01-epidemiology",
 tags: ["PYQ", "INI-CET Nov 2024"],
 text: "Malaria diagnosis under field settings is best done by using?",
 options: [{"id": "A", "text": "Acridine orange stain", "is_correct": false}, {"id": "B", "text": "Thick peripheral blood smear", "is_correct": true}, {"id": "C", "text": "Buffy coat technique", "is_correct": false}, {"id": "D", "text": "Rapid diagnostic test (HRP Type 2 Pf Antigen)", "is_correct": false}],
-explanation: "$1e",
+explanation: "Field diagnosis of malaria requires a method that is simple, inexpensive, and feasible without sophisticated laboratory infrastructure.<br><br>Why thick peripheral blood smear is correct:<br><br>* The **thick peripheral blood smear** remains the gold standard and most practical method for malaria diagnosis in field/PHC settings, as it concentrates parasites for easier detection, requires only basic microscopy, and is low-cost and reliable for confirming the diagnosis and species identification.<br><br>Why other options are incorrect:<br><br>* Acridine orange stain: Requires a **fluorescence microscope**, which is not typically available in field settings.\n* Buffy coat technique: Is **more useful for detecting microfilariae** than malaria parasites, and is not the standard field test for malaria.\n* Rapid diagnostic test (RDT): While useful and field-friendly, it is **less sensitive for low parasitemia and prone to false negatives/positives**, and microscopy remains the preferred field gold standard for confirmation.",
 images: []
 },
 {
@@ -788,7 +788,7 @@ subcategory: "01-epidemiology",
 tags: ["ZVRecommended", "PYQ", "INI-CET Nov 2025"],
 text: "All of the following are Bradford Hill's causal criteria, EXCEPT:",
 options: [{"id": "A", "text": "Biological plausibility", "is_correct": false}, {"id": "B", "text": "Dose response", "is_correct": false}, {"id": "C", "text": "Temporal association", "is_correct": false}, {"id": "D", "text": "Sensitivity", "is_correct": true}],
-explanation: "$1f",
+explanation: "Bradford Hill proposed a set of viewpoints to help judge whether an observed association is likely to be causal, and recognizing what is NOT among these criteria is a frequently tested concept.<br><br>Why sensitivity is the exception:<br><br>* **Sensitivity** is a **diagnostic test characteristic** (the ability of a test to correctly identify true positives), and is not one of Bradford Hill's causal criteria at all.<br><br>Why other options are incorrect (i.e., are valid criteria):<br><br>* Biological plausibility: Is a **genuine Bradford Hill criterion**, assessing whether the association makes sense based on current biological knowledge.\n* Dose response: Is a **genuine Bradford Hill criterion**, assessing whether increasing exposure correlates with increasing risk of disease.\n* Temporal association: Is a **genuine Bradford Hill criterion**, and is considered the only essential/mandatory one, requiring exposure to precede the outcome.",
 images: []
 },
 {
@@ -798,7 +798,7 @@ subcategory: "01-epidemiology",
 tags: ["ZVRecommended", "Controversial", "PYQ", "INI-CET Nov 2025"],
 text: "A study finds that exercise reduces the incidence of cardiovascular disease. However, it was found that people who exercise also tend to consume a healthy diet. What does a healthy diet act in this context?",
 options: [{"id": "A", "text": "Confounding factor", "is_correct": true}, {"id": "B", "text": "Effect modifier", "is_correct": false}, {"id": "C", "text": "There is no association, it can be ignored", "is_correct": false}, {"id": "D", "text": "Diet is a mediator for reducing cardiovascular disease", "is_correct": false}],
-explanation: "$20",
+explanation: "Distinguishing confounding from effect modification or mediation depends on the relationship of the third variable to both exposure and outcome.<br><br>Why confounding factor is correct:<br><br>* A **confounding factor**, like diet here, is associated with both the exposure (exercise) and independently affects the outcome (cardiovascular disease), without being on the causal pathway between them; this can create or mask an apparent association between exercise and CVD if not properly controlled.<br><br>Why other options are incorrect:<br><br>* Effect modifier: Would mean diet **changes the strength or direction** of the exercise-CVD association across different diet groups, not simply being independently associated with both.\n* No association/can be ignored: Is **incorrect**, since an association that's confounded still requires adjustment, not dismissal.\n* Mediator: Would require diet to lie **on the causal pathway between exercise and reduced CVD** (exercise causes better diet, which then reduces CVD), which is a different relationship than one where diet is simply linked to both independently.",
 images: []
 },
 {
@@ -838,7 +838,7 @@ subcategory: "02-biostatistics",
 tags: [],
 text: "A 46-year-old man with diabetes is studied for association between smoking and CAD. Age is suspected to distort the association. Which is the best method to control a known confounder at the analysis stage?",
 options: [{"id": "A", "text": "Randomization", "is_correct": false}, {"id": "B", "text": "Blinding", "is_correct": false}, {"id": "C", "text": "Stratification", "is_correct": true}, {"id": "D", "text": "Increasing response rate only", "is_correct": false}],
-explanation: "$19",
+explanation: "Confounding can be controlled either at the design stage (randomization, matching, restriction) or at the analysis stage, and the question specifically asks about analysis-stage control.<br><br>Why stratification is correct:<br><br>* **Stratification** divides the study population into homogeneous subgroups (strata) based on the confounder, such as age groups, and analyzes the exposure-disease association within each stratum separately, effectively removing the confounding effect of age at the analysis stage.<br><br>Why other options are incorrect:<br><br>* Randomization: A **design-stage** technique used during participant allocation, not something applied during data analysis.\n* Blinding: Controls **observer or participant bias**, not confounding.\n* Increasing response rate: Improves **study power and reduces non-response bias**, but does not address confounding by a known variable like age.",
 images: []
 },
 {
@@ -948,7 +948,7 @@ subcategory: "02-biostatistics",
 tags: [],
 text: "A pharmaceutical company conducts a cross-over study to compare the efficacy of two antihypertensive medications, Drug X and Drug Y. Participants receive Drug X for 4 weeks, undergo a 2-week washout period, and then receive Drug Y for 4 weeks. Upon analyzing the data, researchers observe that blood pressure measurements during the Drug Y phase are significantly lower than during the Drug X phase. However, they also note a progressive decrease in blood pressure readings over the entire study duration, irrespective of the treatment administered. Which of the following phenomena is most likely responsible for this observation?",
 options: [{"id": "A", "text": "Carryover effect", "is_correct": false}, {"id": "B", "text": "Period effect", "is_correct": true}, {"id": "C", "text": "Regression to the mean", "is_correct": false}, {"id": "D", "text": "Sequence effect", "is_correct": false}],
-explanation: "$1a",
+explanation: "In a crossover trial, several types of bias can affect results, and distinguishing them depends on the pattern of the observed change.<br><br>Why period effect is correct:<br><br>* A **period effect** refers to a change in the outcome (here, declining blood pressure) that occurs progressively over the course of the study **regardless of which treatment is being given**, often due to factors like natural disease progression, increasing participant compliance, or external influences over time.<br><br>Why other options are incorrect:<br><br>* Carryover effect: Occurs when the **effect of the first treatment persists into the second phase** despite the washout period, not a continuous trend across the whole study.\n* Regression to the mean: Refers to **extreme initial values trending toward average** on repeat measurement, not a steady decline tied to study duration.\n* Sequence effect: Relates to **the order in which treatments are given** affecting outcomes, which is different from a time-dependent trend seen irrespective of treatment.",
 images: []
 },
 {
@@ -1328,7 +1328,7 @@ subcategory: "02-biostatistics",
 tags: ["PYQ", "NEET PG 2025"],
 text: "A research study is designed to compare hemoglobin levels between two independent population groups. Which of the following statistical tests is most appropriate to determine whether the difference in mean hemoglobin levels between the two groups is statistically significant?",
 options: [{"id": "A", "text": "ANOVA test", "is_correct": false}, {"id": "B", "text": "Paired t-test", "is_correct": false}, {"id": "C", "text": "Unpaired t-test", "is_correct": true}, {"id": "D", "text": "Chi-square test", "is_correct": false}],
-explanation: "$19",
+explanation: "Choosing the correct statistical test depends on the type of data and whether groups being compared are independent or related.<br><br>Why unpaired t-test is correct:<br><br>* The **unpaired (independent) t-test** is used to compare the means of a continuous variable (hemoglobin levels) between **two separate, independent groups**, which is exactly the scenario described here.<br><br>Why other options are incorrect:<br><br>* ANOVA test: Used to compare means across **three or more groups**, not just two.\n* Paired t-test: Used when comparing **the same group measured twice** (e.g., before-after), not two independent populations.\n* Chi-square test: Used to analyze **categorical (not continuous) data**, such as proportions, not mean hemoglobin values.",
 images: []
 },
 {
@@ -1338,7 +1338,7 @@ subcategory: "02-biostatistics",
 tags: ["ZVRecommended", "PYQ", "INI-CET Nov 2023"],
 text: "In a study involving radiographic evaluations, two physicians independently assessed 100 chest X-rays. They calculated a Kappa statistic of 0.71 to measure inter-rater agreement. What does this Kappa value indicate about the level of agreement between the two doctors?",
 options: [{"id": "A", "text": "Slight", "is_correct": false}, {"id": "B", "text": "Fair", "is_correct": false}, {"id": "C", "text": "Moderate", "is_correct": false}, {"id": "D", "text": "Substantial", "is_correct": true}],
-explanation: "$1a",
+explanation: "The Kappa statistic quantifies inter-rater agreement beyond what would be expected by chance, and is interpreted using standard benchmark ranges (Landis and Koch scale).<br><br>Why substantial is correct:<br><br>* A **Kappa value of 0.71** falls within the **0.61\u20130.80 range**, which is classified as \"substantial\" agreement according to the standard interpretation scale, indicating strong concordance between the two physicians' assessments.<br><br>Why other options are incorrect:<br><br>* Slight: Corresponds to a **Kappa of 0.00\u20130.20**, far lower than 0.71.\n* Fair: Corresponds to a **Kappa of 0.21\u20130.40**, also well below the value given.\n* Moderate: Corresponds to a **Kappa of 0.41\u20130.60**, still lower than the substantial range that 0.71 falls into.",
 images: []
 },
 {
@@ -2048,7 +2048,7 @@ subcategory: "04-demography",
 tags: ["Controversial", "PYQ", "INI-CET Nov 2023"],
 text: "A 32-year-old woman with no significant medical history, who has been using depot medroxyprogesterone acetate (DMPA) for contraception, presents to the clinic after missing her scheduled injection by 14 days. She denies any sexual activity since her last injection. Her last menstrual period was 10 weeks ago, and she has no signs of pregnancy. What is the most appropriate recommendation for this patient regarding contraception?",
 options: [{"id": "A", "text": "UPT before DMPA", "is_correct": false}, {"id": "B", "text": "Give DMPA", "is_correct": true}, {"id": "C", "text": "Give DMPA with 7 days of barrier", "is_correct": false}, {"id": "D", "text": "Wait till next period", "is_correct": false}],
-explanation: "$19",
+explanation: "DMPA (Depot medroxyprogesterone acetate) injections have a defined grace period for reinjection, beyond which additional precautions may be needed.<br><br>Why giving DMPA is correct:<br><br>* DMPA has a **2-week (14-day) grace period** after the scheduled injection date, during which the next dose can be given without any additional precautions, as long as there's **no recent unprotected intercourse** (confirmed here, since she denies sexual activity) and **no signs/symptoms of pregnancy**.<br><br>Why other options are incorrect:<br><br>* UPT before DMPA: Is **not required** within the grace period when there's no risk of pregnancy, as in this case.\n* DMPA with 7 days of barrier: Backup contraception is needed only if **the grace period has been exceeded** or there's uncertainty about recent intercourse, neither of which applies here.\n* Wait till next period: Is **unnecessary and would leave the patient without contraceptive cover**, since DMPA can be safely given within the grace period.",
 images: []
 },
 {
@@ -2088,7 +2088,7 @@ subcategory: "04-demography",
 tags: ["PYQ", "FMGE Jul 2025"],
 text: "A 4-year-old girl is rescued from a building collapse after an earthquake. She presents with severe swelling of the foot and a painful laceration. According to disaster triage protocol, which color category should be assigned to her?",
 options: [{"id": "A", "text": "Red", "is_correct": false}, {"id": "B", "text": "Yellow", "is_correct": true}, {"id": "C", "text": "Green", "is_correct": false}, {"id": "D", "text": "Black", "is_correct": false}],
-explanation: "$1a",
+explanation: "Disaster triage uses a color-coded system to prioritize treatment based on injury severity and survivability.<br><br>Why yellow is correct:<br><br>* **Yellow (delayed)** category is assigned to patients with **significant but non-life-threatening injuries**, such as this child's foot swelling and laceration, who can safely tolerate a delay in treatment without immediate risk to life.<br><br>Why other options are incorrect:<br><br>* Red: Reserved for patients with **immediate, life-threatening injuries** requiring urgent intervention, which does not match this child's stable, non-critical presentation.\n* Green: Reserved for patients with **minor injuries who can walk and wait** for extended periods, but this child has a notable injury requiring medical attention, not just minor care.\n* Black: Reserved for patients who are **deceased or have unsurvivable injuries**, not applicable to this stable child.",
 images: []
 },
 {
@@ -2098,7 +2098,7 @@ subcategory: "04-demography",
 tags: ["PYQ", "FMGE Jul 2025"],
 text: "Which of the following conditions allows the safe use of combined oral contraceptive pills (OCPs)?",
 options: [{"id": "A", "text": "Hypertension", "is_correct": false}, {"id": "B", "text": "Hyperlipidemia", "is_correct": false}, {"id": "C", "text": "Diabetes", "is_correct": false}, {"id": "D", "text": "HIV", "is_correct": true}],
-explanation: "$1b",
+explanation: "Combined oral contraceptive pills (OCPs) have several absolute and relative contraindications based on cardiovascular and metabolic risk.<br><br>Why HIV is correct:<br><br>* **HIV infection alone (without AIDS-defining illness)** is not a contraindication to combined OCPs, and WHO Medical Eligibility Criteria classify it as generally safe for use, making it the correct \"safe\" option among those listed.<br><br>Why other options are incorrect:<br><br>* Hypertension: Particularly if **uncontrolled or severe**, is a contraindication due to increased risk of stroke and cardiovascular events with estrogen-containing OCPs.\n* Hyperlipidemia: Increases the **risk of thromboembolic and cardiovascular complications**, making OCP use cautioned or contraindicated depending on severity.\n* Diabetes: Especially with **vascular complications**, is a relative-to-absolute contraindication due to increased cardiovascular risk with estrogen-containing pills.",
 images: []
 },
 {
@@ -2228,7 +2228,7 @@ subcategory: "05-nutrition",
 tags: ["ZVRecommended", "PYQ", "INI-CET Nov 2023"],
 text: "A diabetic patient's fasting blood glucose level is found to be 160 mg/dL. What will you advise the patient regarding non-pharmacological management?",
 options: [{"id": "A", "text": "At least 80g dietary fibre", "is_correct": false}, {"id": "B", "text": "<5 g salt intake everyday", "is_correct": false}, {"id": "C", "text": "< 30% of the calories should come from fat", "is_correct": true}, {"id": "D", "text": "Cholesterol < 100g", "is_correct": false}],
-explanation: "$19",
+explanation: "Dietary management is a cornerstone of non-pharmacological therapy in diabetes, with specific recommended macronutrient targets.<br><br>Why <30% calories from fat is correct:<br><br>* Standard diabetic dietary guidelines recommend that **fat should constitute less than 30% of total daily caloric intake**, helping reduce cardiovascular risk and improve glycemic control alongside other lifestyle measures.<br><br>Why other options are incorrect:<br><br>* At least 80g dietary fibre: The recommended fiber intake is **considerably lower (around 25\u201340g/day)**, not 80g.\n* <5g salt intake daily: While **salt restriction is advised for hypertension/cardiovascular protection**, the specific value and emphasis here is less central to standard diabetic dietary counseling compared to fat restriction.\n* Cholesterol <100g: Dietary cholesterol targets are measured in **milligrams (typically <300mg/day), not grams**, making this option numerically and conceptually incorrect.",
 images: []
 },
 {
@@ -2358,7 +2358,7 @@ subcategory: "05-nutrition",
 tags: ["ZVRecommended", "PYQ", "NEET PG 2025"],
 text: "According to the Infant and Young Child Feeding (IYCF) Guidelines, how much additional cereal-based food should be introduced to a 7-month-old breastfed infant at the initiation of complementary feeding?",
 options: [{"id": "A", "text": "\u00bd to full Katori 3 times a day", "is_correct": true}, {"id": "B", "text": "\u00bd to full Katori 4 times a day", "is_correct": false}, {"id": "C", "text": "\u00bd to full Katori 5 times a day", "is_correct": false}, {"id": "D", "text": "\u00bd to full Katori 6 times a day", "is_correct": false}],
-explanation: "$1a",
+explanation: "The IYCF guidelines specify exact quantities and frequencies of complementary feeding based on the infant's age to ensure adequate growth.<br><br>Why \u00bd to full katori 3 times a day is correct:<br><br>* At **6\u20138 months of age**, IYCF guidelines recommend starting complementary feeding with **\u00bd to a full katori of semi-solid (cereal-based) food, 3 times a day**, in addition to continued breastfeeding, to meet the infant's increasing nutritional needs.<br><br>Why other options are incorrect:<br><br>* 4, 5, or 6 times a day: These **higher frequencies are recommended for older infants** (9\u201311 months and 12\u201323 months respectively), as feeding frequency progressively increases with age, not at the initiation of complementary feeding at 6\u20138 months.",
 images: []
 },
 {
@@ -2368,7 +2368,7 @@ subcategory: "05-nutrition",
 tags: ["PYQ", "NEET PG 2022"],
 text: "Which agency offers seeds and manure as part of applied nutrition programs in schools?",
 options: [{"id": "A", "text": "CARE", "is_correct": false}, {"id": "B", "text": "UNDP", "is_correct": false}, {"id": "C", "text": "UNICEF", "is_correct": true}, {"id": "D", "text": "WHO", "is_correct": false}],
-explanation: "$1b",
+explanation: "Several national and international agencies support applied nutrition programs in India, each with specific roles.<br><br>Why UNICEF is correct:<br><br>* **UNICEF** has historically supported India's Applied Nutrition Programme by providing inputs such as **seeds, manure, and agricultural support** to promote kitchen gardens and improve child nutrition at the community/school level.<br><br>Why other options are incorrect:<br><br>* CARE: Primarily known for **food aid and relief assistance**, not specifically for providing seeds/manure inputs in applied nutrition programs.\n* UNDP: Focuses on **broader developmental and governance programs**, not direct agricultural inputs for nutrition.\n* WHO: Focuses on **health policy, disease control, and technical guidance**, not on providing agricultural inputs like seeds and manure.",
 images: []
 },
 {
@@ -2698,7 +2698,7 @@ subcategory: "06-health-programmes",
 tags: ["ZVRecommended", "PYQ", "NEET PG 2025"],
 text: "A 3-year-old child has a long-standing history of rickets and malnutrition. The child\u2019s growth is below the 5th percentile, and there has been no exposure to sunlight. Which of the following national programs specifically addresses nutritional deficiencies among children below 6 years of age?",
 options: [{"id": "A", "text": "Anemia Mukt Bharat Program", "is_correct": false}, {"id": "B", "text": "ICDS Program", "is_correct": true}, {"id": "C", "text": "National Nutritional Anemia Prophylaxis Program", "is_correct": false}, {"id": "D", "text": "Mid-day meal program", "is_correct": false}],
-explanation: "$1a",
+explanation: "Several national programs address child health, but only specific ones are designed comprehensively for nutritional deficiencies in young children.<br><br>Why ICDS Program is correct:<br><br>* The **Integrated Child Development Services (ICDS) Program** specifically targets children **below 6 years of age**, providing supplementary nutrition, health check-ups, immunization, and growth monitoring to address conditions like malnutrition and rickets, exactly matching this child's profile.<br><br>Why other options are incorrect:<br><br>* Anemia Mukt Bharat Program: Focuses specifically on **reducing anemia (iron-folic acid supplementation)**, not broad nutritional deficiencies like rickets/growth failure.\n* National Nutritional Anemia Prophylaxis Program: Is **specifically targeted at anemia prevention**, not general malnutrition across multiple deficiencies.\n* Mid-day meal program: Targets **school-going children (typically above 6 years)**, not children below 6 years as specified in the question.",
 images: []
 },
 {
@@ -2708,7 +2708,7 @@ subcategory: "06-health-programmes",
 tags: ["ZVRecommended", "Controversial", "PYQ", "NEET PG 2025"],
 text: "Under WIFS (Weekly Iron Folic Acid Supplementation) program, what is the weekly dose of Iron Folic Acid that is given to Adolescents 10-19 years of age?",
 options: [{"id": "A", "text": "Iron \u2013 20 mg, Folic acid \u2013 100 mcg", "is_correct": false}, {"id": "B", "text": "Iron \u2013 45 mg, Folic acid \u2013 400 mcg", "is_correct": false}, {"id": "C", "text": "Iron \u2013 60 mg, Folic acid \u2013 500 mcg", "is_correct": false}, {"id": "D", "text": "Iron \u2013 100 mg, Folic acid \u2013 500 mcg", "is_correct": true}],
-explanation: "$1b",
+explanation: "The Weekly Iron Folic Acid Supplementation (WIFS) program has specific dosing for different age groups, including adolescents.<br><br>Why Iron 100mg + Folic acid 500mcg is correct:<br><br>* Under **WIFS**, adolescents aged **10\u201319 years** receive a weekly dose of **100mg elemental iron and 500mcg folic acid**, given once a week to prevent and control iron deficiency anemia in this age group.<br><br>Why other options are incorrect:<br><br>* Iron 20mg, Folic acid 100mcg: This **lower dose does not match** the WIFS adolescent dosing schedule.\n* Iron 45mg, Folic acid 400mcg: This combination **does not correspond** to the standard WIFS adolescent dose.\n* Iron 60mg, Folic acid 500mcg: While the folic acid dose matches, the **iron dose of 60mg is incorrect** for the WIFS adolescent schedule, which specifies 100mg.",
 images: []
 },
 {
@@ -2758,7 +2758,7 @@ subcategory: "06-health-programmes",
 tags: ["ZVRecommended", "PYQ", "INI-CET Nov 2023"],
 text: "A 70-year-old patient with a history of progressive vision loss is scheduled for cataract surgery under the National Program for Control of Blindness and Visual Impairment. Which of the following is NOT an accurate guideline or inclusion criterion for cataract surgery within this national program?",
 options: [{"id": "A", "text": "Patients requiring cataract surgeries are selected and asked to report to base hospital", "is_correct": false}, {"id": "B", "text": "Perform more small incision cataract surgery", "is_correct": false}, {"id": "C", "text": "To do surgery in rural area with make shift hospital/Ots", "is_correct": true}, {"id": "D", "text": "To perform surgeries in fixed facility surgery by shifting patients from rural area", "is_correct": false}],
-explanation: "$1c",
+explanation: "The National Program for Control of Blindness and Visual Impairment (NPCB&VI) has specific, standardized guidelines for delivering cataract surgery services, particularly in rural areas.<br><br>Why \"surgery in rural area with makeshift hospital/OTs\" is the exception:<br><br>* The program's protocol explicitly **discourages performing surgery in makeshift or improvised rural facilities**, instead emphasizing that patients should be transported to **fixed, properly equipped surgical facilities** to ensure surgical safety and quality outcomes.<br><br>Why other options are accurate guidelines (and thus incorrect as the answer):<br><br>* Patients selected and asked to report to base hospital: This **is an accurate component** of the program's case identification and referral pathway.\n* Performing more small incision cataract surgery: This **is an accurate guideline**, as SICS is promoted for its safety, speed, and suitability in high-volume settings.\n* Performing surgeries in fixed facilities by shifting patients from rural areas: This **is the correct, recommended approach**, contrasting with the makeshift-hospital option which is not recommended.",
 images: []
 },
 {
@@ -2778,7 +2778,7 @@ subcategory: "06-health-programmes",
 tags: ["PYQ", "FMGE Jul 2025"],
 text: "What is the name of the online portal used for delivering mental healthcare services via telephone and other digital platforms for mental disorders such as schizophrenia, under the National Mental Health Programme?",
 options: [{"id": "A", "text": "NIKSHAY", "is_correct": false}, {"id": "B", "text": "Tele-manas", "is_correct": true}, {"id": "C", "text": "Quinitin", "is_correct": false}, {"id": "D", "text": "U-Win", "is_correct": false}],
-explanation: "$1d",
+explanation: "India has launched several digital health initiatives, and recognizing the one specific to mental health service delivery is a frequently tested concept.<br><br>Why Tele-MANAS is correct:<br><br>* **Tele-MANAS (Tele Mental Health Assistance and Networking Across States)** is the national online/telephone-based portal launched under the National Mental Health Programme to provide accessible mental healthcare services, including for conditions like schizophrenia, via telephone and digital platforms across India.<br><br>Why other options are incorrect:<br><br>* NIKSHAY: Is the digital platform used for **tuberculosis case management and notification**, unrelated to mental health.\n* Quinitin: Is **not a recognized national health portal or program** related to mental health services.\n* U-Win: Is the digital platform for **immunization/vaccination tracking**, not mental health service delivery.",
 images: []
 },
 {
@@ -2798,7 +2798,7 @@ subcategory: "06-health-programmes",
 tags: ["Controversial", "ZVRecommended", "PYQ", "INI-CET Nov 2024"],
 text: "Which of the following is the challenge faced in the operationalization of the concept of Universal Health Coverage (UHC)?",
 options: [{"id": "A", "text": "Universal Health Coverage aims to provide free health care services to all, regardless of the available resources in the country", "is_correct": false}, {"id": "B", "text": "Universal Health Coverage aims to provide services despite having unregulated and fragmented healthcare delivery systems", "is_correct": true}, {"id": "C", "text": "Universal Health Coverage prioritizes the safety of resources in a low-resource setting", "is_correct": false}, {"id": "D", "text": "Universal Health Coverage targets primary health care delivery based on the needs of the population", "is_correct": false}],
-explanation: "$1e",
+explanation: "Universal Health Coverage (UHC) aims to ensure all people receive needed health services without financial hardship, but its real-world implementation faces structural challenges.<br><br>Why fragmented and unregulated delivery systems is correct:<br><br>* A major practical challenge to achieving UHC is that many health systems, especially in low- and middle-income countries, have **unregulated, fragmented healthcare delivery** involving multiple uncoordinated public and private providers, which makes consistent, equitable service delivery difficult to achieve.<br><br>Why other options are incorrect:<br><br>* Providing free care regardless of resources: This describes an **aspirational goal of UHC**, not a challenge; UHC is actually designed to be tailored to available resources, not promise unlimited free care irrespective of them.\n* Prioritizing safety of resources: This is a **general principle, not a recognized specific operational challenge** of UHC.\n* Targeting needs-based primary care delivery: This describes a **core design feature of UHC**, not an obstacle to its implementation.",
 images: []
 },
 {
@@ -2808,7 +2808,7 @@ subcategory: "06-health-programmes",
 tags: ["PYQ", "INI-CET Nov 2024"],
 text: "All of the following are the components of Anemia Mukt Bharat Programme except:",
 options: [{"id": "A", "text": "6 departments", "is_correct": true}, {"id": "B", "text": "6 beneficiaries", "is_correct": false}, {"id": "C", "text": "6 institutional mechanisms", "is_correct": false}, {"id": "D", "text": "6 interventions", "is_correct": false}],
-explanation: "$1f",
+explanation: "The Anemia Mukt Bharat (AMB) Programme is structured around a defined \"6x6x6\" strategy framework targeting anemia reduction across the life cycle.<br><br>Why \"6 departments\" is the exception:<br><br>* The AMB strategy is built around **6 target beneficiary groups, 6 interventions, and 6 institutional mechanisms** \u2014 \"6 departments\" is **not one of the official defined components** of this framework.<br><br>Why other options are correct components (and thus incorrect as the answer):<br><br>* 6 beneficiaries: Refers to the **6 target groups** (e.g., children, adolescents, pregnant/lactating women, women of reproductive age) that the program is designed to address.\n* 6 institutional mechanisms: Refers to the **6 structural/administrative mechanisms** put in place to support program delivery and monitoring.\n* 6 interventions: Refers to the **6 specific intervention strategies** (such as supplementation, deworming, fortification, and others) used to combat anemia under the program.",
 images: []
 },
 {
@@ -3178,7 +3178,7 @@ subcategory: "07-environment",
 tags: ["PYQ", "FMGE Jul 2025"],
 text: "A man working as a mason in a sand mine for a Kota stone factory in Rajasthan presents with the chest X-ray, as shown below. Which of the following occupational exposures is the most likely contributing factor to his condition?",
 options: [{"id": "A", "text": "Silicosis", "is_correct": true}, {"id": "B", "text": "Asbestosis", "is_correct": false}, {"id": "C", "text": "Bagassosis", "is_correct": false}, {"id": "D", "text": "Anthracosis", "is_correct": false}],
-explanation: "$19",
+explanation: "Occupational exposure history combined with radiographic findings points toward a specific pneumoconiosis common in stone/sand mining work.<br><br>Why silicosis is correct:<br><br>* **Silica dust exposure**, common in sand mining and stone-cutting/quarrying occupations like Kota stone factory work, causes silicosis, classically showing **nodular opacities, particularly in the upper lung zones**, with possible \"eggshell\" calcification of hilar lymph nodes on chest X-ray.<br><br>Why other options are incorrect:<br><br>* Asbestosis: Caused by **asbestos fiber exposure** (shipbuilding, insulation work), typically showing **lower lobe** linear/reticular opacities and pleural plaques, not matching this occupational history.\n* Bagassosis: Caused by exposure to **moldy sugarcane bagasse dust**, unrelated to sand/stone mining.\n* Anthracosis: Caused by **coal dust exposure** in coal mining, not sand/stone mining as described here.",
 images: [{"url": "https://corebtr-assets-production.s3.ap-south-1.amazonaws.com/questions_image/01KN1SZAGK64NCC4G8APHM806W.jpg", "caption": ""}]
 },
 {
@@ -3378,7 +3378,7 @@ subcategory: "08-miscellaneous",
 tags: ["ZVRecommended", "PYQ", "NEET PG 2025"],
 text: "An oncologist evaluates a patient with advanced breast cancer and determines that the prognosis is poor. The family is informed that further chemotherapy or radiotherapy will not improve survival. The patient is conscious but appears anxious. Her daughter insists on pursuing all possible interventions, including ICU admission. What is the next best step in management?",
 options: [{"id": "A", "text": "Discharge patient saying that there is nothing more to be done. Send to hospice for palliative care", "is_correct": false}, {"id": "B", "text": "Listen to daughter and be aggressive", "is_correct": false}, {"id": "C", "text": "Convene family and discuss patient's priority", "is_correct": true}, {"id": "D", "text": "Give placebo to reduce anxiety of patient", "is_correct": false}],
-explanation: "$19",
+explanation: "End-of-life decision-making in patients with poor prognosis requires balancing patient autonomy, family wishes, and realistic goals of care.<br><br>Why convening the family is correct:<br><br>* **Shared decision-making** through a family meeting allows the care team to clarify prognosis, address the daughter's concerns, and most importantly establish the **patient's own priorities and wishes**, since the patient is conscious and capable of expressing preferences.\n* This approach respects **patient autonomy** while addressing family distress in a structured, compassionate way.<br><br>Why other options are incorrect:<br><br>* Discharging to hospice immediately: **Bypasses shared decision-making** and does not address the family's concerns or confirm the patient's own wishes first.\n* Listening to the daughter and being aggressive: Prioritizes the **family's wishes over the patient's autonomy** and may lead to futile, burdensome interventions.\n* Giving a placebo: Is **ethically inappropriate and deceptive**, and does not address the actual goals-of-care conflict.",
 images: []
 },
 {
@@ -3398,7 +3398,7 @@ subcategory: "08-miscellaneous",
 tags: ["PYQ", "INI-CET Nov 2023"],
 text: "In the 18th century, the East India Company engaged in the illicit trade of a specific substance with China, which played a significant role in the historical trade dynamics. What was the substance that the company smuggled into China during this time?",
 options: [{"id": "A", "text": "Opium", "is_correct": true}, {"id": "B", "text": "Cannabis", "is_correct": false}, {"id": "C", "text": "Magic Mushroom", "is_correct": false}, {"id": "D", "text": "Cocaine", "is_correct": false}],
-explanation: "$1a",
+explanation: "This is a factual question on the history of public health and trade, relevant to the colonial-era origins of substance use and its later public health impact.<br><br>Why opium is correct:<br><br>* The **British East India Company smuggled opium grown in India into China** during the 18th and 19th centuries, despite Chinese prohibition, leading to massive addiction problems and ultimately the Opium Wars.<br><br>Why other options are incorrect:<br><br>* Cannabis: Was **not the substance involved** in this specific historical trade conflict between the East India Company and China.\n* Magic mushroom: Has **no documented role** in this colonial trade history.\n* Cocaine: Was **not derived or traded by the East India Company**; cocaine's history is tied to South American coca cultivation and later European pharmaceutical use.",
 images: []
 },
 {
@@ -3438,7 +3438,7 @@ subcategory: "08-miscellaneous",
 tags: ["PYQ", "INI-CET Nov 2023"],
 text: "Which type of graph is used to illustrate studies on healthcare and disease prevalence in a population?",
 options: [{"id": "A", "text": "Bar diagram", "is_correct": false}, {"id": "B", "text": "Histogram", "is_correct": false}, {"id": "C", "text": "Multiple regression Model", "is_correct": false}, {"id": "D", "text": "Ishikawa diagram/Fish bone diagram", "is_correct": true}],
-explanation: "$1c",
+explanation: "Palliative care is a distinct branch of medicine with a specific philosophy of care, separate from curative treatment.<br><br>Why improving quality of life is correct:<br><br>* **Palliative care's core goal** is to relieve suffering and improve the quality of life of patients with serious, life-limiting illness through symptom control (like managing this patient's pain and dyspnea), psychosocial support, and holistic care, regardless of whether the disease itself can be cured.<br><br>Why other options are incorrect:<br><br>* To cure disease: Palliative care is specifically offered **when cure is no longer the goal**, distinguishing it from curative treatment.\n* Do nothing to prolong life: Palliative care **actively manages symptoms and may include life-prolonging measures** when aligned with patient goals; it does not mean withholding all care.\n* Nothing is done in palliative care: This is a **common misconception**; palliative care involves active, comprehensive symptom and supportive management.",
 images: []
 },
 {
@@ -3468,7 +3468,7 @@ subcategory: "08-miscellaneous",
 tags: ["PYQ", "FMGE Jul 2025"],
 text: "A factory worker sustains burns covering 25% of his body surface area. Later, he develops infections and other complications. Under the Employees\u2019 State Insurance (ESI) Act, he will be immediately eligible for which of the following benefits?",
 options: [{"id": "A", "text": "Dependents' benefit", "is_correct": false}, {"id": "B", "text": "Sickness benefit", "is_correct": false}, {"id": "C", "text": "Extended sickness benefit (ESB)", "is_correct": true}, {"id": "D", "text": "Disablement benefit", "is_correct": false}],
-explanation: "$1d",
+explanation: "The Employees' State Insurance (ESI) Act provides several cash benefits to insured workers, each with specific eligibility criteria based on the nature and duration of illness.<br><br>Why extended sickness benefit is correct:<br><br>* **Extended sickness benefit (ESB)** is provided for specified long-term diseases (including major burns and their complications) and allows for an extended period of cash benefit beyond the standard sickness benefit duration, making it immediately applicable to a severe 25% burn injury with complications.<br><br>Why other options are incorrect:<br><br>* Dependents' benefit: Paid to **family members upon the death** of the insured worker due to employment injury, not applicable here.\n* Sickness benefit: Provides only a **standard, shorter-duration cash benefit** for common illnesses, insufficient for a condition requiring extended care like major burns.\n* Disablement benefit: Applies when there is **permanent or temporary loss of earning capacity** due to employment injury, which is a separate category from extended sickness benefit.",
 images: []
 },
 {
@@ -3488,7 +3488,7 @@ subcategory: "08-miscellaneous",
 tags: ["ZVRecommended", "PYQ", "FMGE Jul 2025"],
 text: "A study was conducted among nursing staff to find out time taken in different aspects of patient care viz., bed preparation, monitoring of vitals, attending doctor's rounds, blood sampling, drug administration. Which management technique would be applied for the analysis?",
 options: [{"id": "A", "text": "Critical path method", "is_correct": false}, {"id": "B", "text": "Input output analysis", "is_correct": false}, {"id": "C", "text": "Systems analysis", "is_correct": false}, {"id": "D", "text": "Work sampling", "is_correct": true}],
-explanation: "$1e",
+explanation: "Hospital and nursing management studies often use specific industrial engineering techniques to analyze how staff time is allocated across tasks.<br><br>Why work sampling is correct:<br><br>* **Work sampling** is a statistical technique that involves taking a large number of random observations of staff activities over time to estimate the proportion of time spent on different tasks (like bed preparation, vitals monitoring, and drug administration), making it ideal for this type of time-utilization study.<br><br>Why other options are incorrect:<br><br>* Critical path method: Used for **project scheduling and identifying the longest sequence of dependent tasks**, not for analyzing routine staff time allocation.\n* Input-output analysis: Examines **resource inputs versus service outputs** at a systems level, not individual task-time breakdown.\n* Systems analysis: A **broader analytical approach to understanding how system components interact**, not a specific time-measurement technique like work sampling.",
 images: []
 },
 {
@@ -3558,7 +3558,7 @@ subcategory: "09-pyqs",
 tags: ["ZVRecommended", "PYQ", "NEET PG 2025"],
 text: "An oncologist evaluates a patient with advanced breast cancer and determines that the prognosis is poor. The family is informed that further chemotherapy or radiotherapy will not improve survival. The patient is conscious but appears anxious. Her daughter insists on pursuing all possible interventions, including ICU admission. What is the next best step in management?",
 options: [{"id": "A", "text": "Discharge patient saying that there is nothing more to be done. Send to hospice for palliative care", "is_correct": false}, {"id": "B", "text": "Listen to daughter and be aggressive", "is_correct": false}, {"id": "C", "text": "Convene family and discuss patient's priority", "is_correct": true}, {"id": "D", "text": "Give placebo to reduce anxiety of patient", "is_correct": false}],
-explanation: "$19",
+explanation: "End-of-life decision-making in patients with poor prognosis requires balancing patient autonomy, family wishes, and realistic goals of care.<br><br>Why convening the family is correct:<br><br>* **Shared decision-making** through a family meeting allows the care team to clarify prognosis, address the daughter's concerns, and most importantly establish the **patient's own priorities and wishes**, since the patient is conscious and capable of expressing preferences.\n* This approach respects **patient autonomy** while addressing family distress in a structured, compassionate way.<br><br>Why other options are incorrect:<br><br>* Discharging to hospice immediately: **Bypasses shared decision-making** and does not address the family's concerns or confirm the patient's own wishes first.\n* Listening to the daughter and being aggressive: Prioritizes the **family's wishes over the patient's autonomy** and may lead to futile, burdensome interventions.\n* Giving a placebo: Is **ethically inappropriate and deceptive**, and does not address the actual goals-of-care conflict.",
 images: []
 },
 {
@@ -3578,7 +3578,7 @@ subcategory: "09-pyqs",
 tags: ["PYQ", "INI-CET Nov 2023"],
 text: "In the 18th century, the East India Company engaged in the illicit trade of a specific substance with China, which played a significant role in the historical trade dynamics. What was the substance that the company smuggled into China during this time?",
 options: [{"id": "A", "text": "Opium", "is_correct": true}, {"id": "B", "text": "Cannabis", "is_correct": false}, {"id": "C", "text": "Magic Mushroom", "is_correct": false}, {"id": "D", "text": "Cocaine", "is_correct": false}],
-explanation: "$1a",
+explanation: "This is a factual question on the history of public health and trade, relevant to the colonial-era origins of substance use and its later public health impact.<br><br>Why opium is correct:<br><br>* The **British East India Company smuggled opium grown in India into China** during the 18th and 19th centuries, despite Chinese prohibition, leading to massive addiction problems and ultimately the Opium Wars.<br><br>Why other options are incorrect:<br><br>* Cannabis: Was **not the substance involved** in this specific historical trade conflict between the East India Company and China.\n* Magic mushroom: Has **no documented role** in this colonial trade history.\n* Cocaine: Was **not derived or traded by the East India Company**; cocaine's history is tied to South American coca cultivation and later European pharmaceutical use.",
 images: []
 },
 {
@@ -3608,7 +3608,7 @@ subcategory: "09-pyqs",
 tags: ["PYQ", "INI-CET Nov 2023"],
 text: "A 68-year-old male with a history of stage IV non-small cell lung cancer presents with worsening dyspnea, non-productive cough, and uncontrolled pain despite current medication. He has declined further aggressive treatment. What stands true for Palliative care?",
 options: [{"id": "A", "text": "To cure disease", "is_correct": false}, {"id": "B", "text": "Do nothing to prolong life", "is_correct": false}, {"id": "C", "text": "To improve quality of life patient", "is_correct": true}, {"id": "D", "text": "Nothing is done in palliative care", "is_correct": false}],
-explanation: "$1b",
+explanation: "Palliative care is a distinct branch of medicine with a specific philosophy of care, separate from curative treatment.<br><br>Why improving quality of life is correct:<br><br>* **Palliative care's core goal** is to relieve suffering and improve the quality of life of patients with serious, life-limiting illness through symptom control (like managing this patient's pain and dyspnea), psychosocial support, and holistic care, regardless of whether the disease itself can be cured.<br><br>Why other options are incorrect:<br><br>* To cure disease: Palliative care is specifically offered **when cure is no longer the goal**, distinguishing it from curative treatment.\n* Do nothing to prolong life: Palliative care **actively manages symptoms and may include life-prolonging measures** when aligned with patient goals; it does not mean withholding all care.\n* Nothing is done in palliative care: This is a **common misconception**; palliative care involves active, comprehensive symptom and supportive management.",
 images: []
 },
 {
@@ -3648,7 +3648,7 @@ subcategory: "09-pyqs",
 tags: ["PYQ", "FMGE Jul 2025"],
 text: "A factory worker sustains burns covering 25% of his body surface area. Later, he develops infections and other complications. Under the Employees\u2019 State Insurance (ESI) Act, he will be immediately eligible for which of the following benefits?",
 options: [{"id": "A", "text": "Dependents' benefit", "is_correct": false}, {"id": "B", "text": "Sickness benefit", "is_correct": false}, {"id": "C", "text": "Extended sickness benefit (ESB)", "is_correct": true}, {"id": "D", "text": "Disablement benefit", "is_correct": false}],
-explanation: "$1d",
+explanation: "The Employees' State Insurance (ESI) Act provides several cash benefits to insured workers, each with specific eligibility criteria based on the nature and duration of illness.<br><br>Why extended sickness benefit is correct:<br><br>* **Extended sickness benefit (ESB)** is provided for specified long-term diseases (including major burns and their complications) and allows for an extended period of cash benefit beyond the standard sickness benefit duration, making it immediately applicable to a severe 25% burn injury with complications.<br><br>Why other options are incorrect:<br><br>* Dependents' benefit: Paid to **family members upon the death** of the insured worker due to employment injury, not applicable here.\n* Sickness benefit: Provides only a **standard, shorter-duration cash benefit** for common illnesses, insufficient for a condition requiring extended care like major burns.\n* Disablement benefit: Applies when there is **permanent or temporary loss of earning capacity** due to employment injury, which is a separate category from extended sickness benefit.",
 images: []
 },
 {
@@ -3668,7 +3668,7 @@ subcategory: "09-pyqs",
 tags: ["ZVRecommended", "PYQ", "FMGE Jul 2025"],
 text: "A study was conducted among nursing staff to find out time taken in different aspects of patient care viz., bed preparation, monitoring of vitals, attending doctor's rounds, blood sampling, drug administration. Which management technique would be applied for the analysis?",
 options: [{"id": "A", "text": "Critical path method", "is_correct": false}, {"id": "B", "text": "Input output analysis", "is_correct": false}, {"id": "C", "text": "Systems analysis", "is_correct": false}, {"id": "D", "text": "Work sampling", "is_correct": true}],
-explanation: "$1e",
+explanation: "Hospital and nursing management studies often use specific industrial engineering techniques to analyze how staff time is allocated across tasks.<br><br>Why work sampling is correct:<br><br>* **Work sampling** is a statistical technique that involves taking a large number of random observations of staff activities over time to estimate the proportion of time spent on different tasks (like bed preparation, vitals monitoring, and drug administration), making it ideal for this type of time-utilization study.<br><br>Why other options are incorrect:<br><br>* Critical path method: Used for **project scheduling and identifying the longest sequence of dependent tasks**, not for analyzing routine staff time allocation.\n* Input-output analysis: Examines **resource inputs versus service outputs** at a systems level, not individual task-time breakdown.\n* Systems analysis: A **broader analytical approach to understanding how system components interact**, not a specific time-measurement technique like work sampling.",
 images: []
 },
 {
@@ -3768,7 +3768,7 @@ subcategory: "09-pyqs",
 tags: ["ZVRecommended", "PYQ", "NEET PG 2025"],
 text: "A patient was admitted to the hospital with COVID-19 and died 15 days later due to the illness. His death was reported through the official health reporting system. According to surveillance definitions, this type of reporting represents which form of surveillance?",
 options: [{"id": "A", "text": "Active surveillance", "is_correct": false}, {"id": "B", "text": "Passive surveillance", "is_correct": true}, {"id": "C", "text": "Sentinel surveillance", "is_correct": false}, {"id": "D", "text": "Syndromic surveillance", "is_correct": false}],
-explanation: "$1f",
+explanation: "Distinguishing surveillance types depends on how and through what channel the data reaches the health system.<br><br>Why passive surveillance is correct:<br><br>* **Passive surveillance** relies on routine reporting of cases or deaths by healthcare facilities through the standard, official health information/reporting system, without active prompting by health authorities, exactly as described for this COVID-19 death.<br><br>Why other options are incorrect:<br><br>* Active surveillance: Requires **health authorities to actively seek out cases**, such as through field visits or direct contact with facilities, rather than waiting for routine reports.\n* Sentinel surveillance: Involves **only a selected network of representative reporting sites**, not the entire official reporting system.\n* Syndromic surveillance: Tracks **disease based on symptom patterns/syndromes** rather than confirmed diagnosis-based mortality reporting.",
 images: []
 },
 {
@@ -3788,7 +3788,7 @@ subcategory: "09-pyqs",
 tags: ["Controversial", "ZVRecommended", "PYQ", "NEET PG 2025"],
 text: "In a district, an intervention-based trial is being conducted on Neonatal sepsis. 20 PHCs were randomly chosen to follow the Standard treatment, and 20 PHCs were chosen for Community based treatment strategy. This is which type of epidemiological study design?",
 options: [{"id": "A", "text": "Clustered randomised controlled trial", "is_correct": true}, {"id": "B", "text": "Quasi-experimental study", "is_correct": false}, {"id": "C", "text": "Cross sectional study", "is_correct": false}, {"id": "D", "text": "Case control study", "is_correct": false}],
-explanation: "$20",
+explanation: "Recognizing study designs depends on what unit is being randomized to intervention versus control.<br><br>Why clustered randomised controlled trial is correct:<br><br>* In a **clustered RCT**, entire groups or clusters (here, PHCs) rather than individual patients are randomized to different treatment strategies, which is appropriate when the intervention (a community-based treatment strategy) is delivered at the facility/community level rather than to individuals.<br><br>Why other options are incorrect:<br><br>* Quasi-experimental study: Involves **assignment to groups without true randomization**, whereas this study explicitly uses random allocation of PHCs.\n* Cross-sectional study: Is a **purely observational design measuring prevalence at one time point**, not an interventional trial comparing treatment strategies.\n* Case-control study: Compares **individuals with and without an outcome**, retrospectively examining exposure, which does not match this prospective interventional design.",
 images: []
 },
 {
@@ -3798,7 +3798,7 @@ subcategory: "09-pyqs",
 tags: ["PYQ", "NEET PG 2025"],
 text: "A research study finds that using mammography for breast cancer screening appears to improve outcomes by increasing 5-year survival rates. However, post-mortem data show no real reduction in overall mortality. This apparent improvement in survival, despite unchanged mortality, is an example of which of the following epidemiological biases?",
 options: [{"id": "A", "text": "Hawthorne bias", "is_correct": false}, {"id": "B", "text": "Pygmalion bias", "is_correct": false}, {"id": "C", "text": "Berkesonian bias", "is_correct": false}, {"id": "D", "text": "Lead time bias", "is_correct": true}],
-explanation: "$21",
+explanation: "Screening studies can show misleading improvements in survival statistics due to specific biases inherent to early detection.<br><br>Why lead time bias is correct:<br><br>* **Lead time bias** occurs when screening detects disease earlier in its natural course, making the time from diagnosis to death (survival time) appear longer, even though the actual time of death and overall disease course (and mortality) remain unchanged \u2014 exactly matching the scenario where mortality is unaffected despite improved 5-year survival.<br><br>Why other options are incorrect:<br><br>* Hawthorne bias: Occurs when **participants alter behavior because they know they're being studied**, unrelated to screening timing.\n* Pygmalion bias: Refers to **observer expectations influencing outcomes** (a form of bias in measurement), not the screening time-shift described here.\n* Berkesonian bias: A type of **selection bias arising from differential hospital admission rates**, not related to the apparent survival benefit from early detection.",
 images: []
 },
 {
@@ -3818,7 +3818,7 @@ subcategory: "09-pyqs",
 tags: ["ZVRecommended", "PYQ", "NEET PG 2025"],
 text: "Arrange the following steps of a Randomised controlled trial in sequential order: \n1.\tManipulation\n2.\tStatistical analysis\n3.\tFollow-up\n4.\tRandomisation",
 options: [{"id": "A", "text": "1-4-3-2", "is_correct": false}, {"id": "B", "text": "1-4-2-3", "is_correct": false}, {"id": "C", "text": "4-1-3-2", "is_correct": true}, {"id": "D", "text": "4-1-2-3", "is_correct": false}],
-explanation: "$22",
+explanation: "The standard sequence of steps in a randomized controlled trial follows a logical experimental order from group assignment to data analysis.<br><br>Why 4-1-3-2 is correct:<br><br>* **Randomisation (4)** comes first to allocate participants to groups, followed by **manipulation (1)**, the actual intervention/treatment administration; then **follow-up (3)** to observe outcomes over time, and finally **statistical analysis (2)** to compare results between groups, which is the standard sequential flow of any RCT.<br><br>Why other options are incorrect:<br><br>* 1-4-3-2, 1-4-2-3: Both incorrectly place **manipulation before randomisation**, but participants must be randomized into groups before any intervention is applied.\n* 4-1-2-3: Incorrectly places **statistical analysis before follow-up**, but outcome data can only be analyzed after the follow-up period has been completed.",
 images: []
 },
 {
@@ -3908,7 +3908,7 @@ subcategory: "09-pyqs",
 tags: ["PYQ", "INI-CET Nov 2024"],
 text: "A 2-year-old child presented to OPD of a PHC Watery diarrhoea having severe dehydration. Most likely causative agent underlying would be:",
 options: [{"id": "A", "text": "Shigella", "is_correct": false}, {"id": "B", "text": "E.Coli O157:H7", "is_correct": false}, {"id": "C", "text": "Rota virus", "is_correct": true}, {"id": "D", "text": "Salmonella", "is_correct": false}],
-explanation: "$23",
+explanation: "Identifying the most likely pathogen in pediatric diarrhea depends on the typical age group and severity of presentation.<br><br>Why rotavirus is correct:<br><br>* **Rotavirus** is the single most common cause of severe, watery diarrhea with dehydration in children under 5 years globally, particularly affecting children under 2 years, and is responsible for the majority of hospitalizations for acute gastroenteritis in this age group.<br><br>Why other options are incorrect:<br><br>* Shigella: Typically causes **dysenteric (bloody, mucoid) diarrhea** with high fever, not isolated watery diarrhea.\n* E. coli O157:H7: Associated with **bloody diarrhea and hemolytic uremic syndrome**, not the classic watery presentation described here.\n* Salmonella: Usually causes **inflammatory diarrhea with fever**, and is a less common cause of severe watery dehydration compared to rotavirus in this age group.",
 images: []
 },
 {
@@ -3918,7 +3918,7 @@ subcategory: "09-pyqs",
 tags: ["PYQ", "INI-CET Nov 2024"],
 text: "Malaria diagnosis under field settings is best done by using?",
 options: [{"id": "A", "text": "Acridine orange stain", "is_correct": false}, {"id": "B", "text": "Thick peripheral blood smear", "is_correct": true}, {"id": "C", "text": "Buffy coat technique", "is_correct": false}, {"id": "D", "text": "Rapid diagnostic test (HRP Type 2 Pf Antigen)", "is_correct": false}],
-explanation: "$24",
+explanation: "Field diagnosis of malaria requires a method that is simple, inexpensive, and feasible without sophisticated laboratory infrastructure.<br><br>Why thick peripheral blood smear is correct:<br><br>* The **thick peripheral blood smear** remains the gold standard and most practical method for malaria diagnosis in field/PHC settings, as it concentrates parasites for easier detection, requires only basic microscopy, and is low-cost and reliable for confirming the diagnosis and species identification.<br><br>Why other options are incorrect:<br><br>* Acridine orange stain: Requires a **fluorescence microscope**, which is not typically available in field settings.\n* Buffy coat technique: Is **more useful for detecting microfilariae** than malaria parasites, and is not the standard field test for malaria.\n* Rapid diagnostic test (RDT): While useful and field-friendly, it is **less sensitive for low parasitemia and prone to false negatives/positives**, and microscopy remains the preferred field gold standard for confirmation.",
 images: []
 },
 {
@@ -4018,7 +4018,7 @@ subcategory: "09-pyqs",
 tags: ["ZVRecommended", "PYQ", "INI-CET Nov 2025"],
 text: "All of the following are Bradford Hill's causal criteria, EXCEPT:",
 options: [{"id": "A", "text": "Biological plausibility", "is_correct": false}, {"id": "B", "text": "Dose response", "is_correct": false}, {"id": "C", "text": "Temporal association", "is_correct": false}, {"id": "D", "text": "Sensitivity", "is_correct": true}],
-explanation: "$19",
+explanation: "Bradford Hill proposed a set of viewpoints to help judge whether an observed association is likely to be causal, and recognizing what is NOT among these criteria is a frequently tested concept.<br><br>Why sensitivity is the exception:<br><br>* **Sensitivity** is a **diagnostic test characteristic** (the ability of a test to correctly identify true positives), and is not one of Bradford Hill's causal criteria at all.<br><br>Why other options are incorrect (i.e., are valid criteria):<br><br>* Biological plausibility: Is a **genuine Bradford Hill criterion**, assessing whether the association makes sense based on current biological knowledge.\n* Dose response: Is a **genuine Bradford Hill criterion**, assessing whether increasing exposure correlates with increasing risk of disease.\n* Temporal association: Is a **genuine Bradford Hill criterion**, and is considered the only essential/mandatory one, requiring exposure to precede the outcome.",
 images: []
 },
 {
@@ -4028,7 +4028,7 @@ subcategory: "09-pyqs",
 tags: ["ZVRecommended", "Controversial", "PYQ", "INI-CET Nov 2025"],
 text: "A study finds that exercise reduces the incidence of cardiovascular disease. However, it was found that people who exercise also tend to consume a healthy diet. What does a healthy diet act in this context?",
 options: [{"id": "A", "text": "Confounding factor", "is_correct": true}, {"id": "B", "text": "Effect modifier", "is_correct": false}, {"id": "C", "text": "There is no association, it can be ignored", "is_correct": false}, {"id": "D", "text": "Diet is a mediator for reducing cardiovascular disease", "is_correct": false}],
-explanation: "$1a",
+explanation: "Distinguishing confounding from effect modification or mediation depends on the relationship of the third variable to both exposure and outcome.<br><br>Why confounding factor is correct:<br><br>* A **confounding factor**, like diet here, is associated with both the exposure (exercise) and independently affects the outcome (cardiovascular disease), without being on the causal pathway between them; this can create or mask an apparent association between exercise and CVD if not properly controlled.<br><br>Why other options are incorrect:<br><br>* Effect modifier: Would mean diet **changes the strength or direction** of the exercise-CVD association across different diet groups, not simply being independently associated with both.\n* No association/can be ignored: Is **incorrect**, since an association that's confounded still requires adjustment, not dismissal.\n* Mediator: Would require diet to lie **on the causal pathway between exercise and reduced CVD** (exercise causes better diet, which then reduces CVD), which is a different relationship than one where diet is simply linked to both independently.",
 images: []
 },
 {
@@ -4088,7 +4088,7 @@ subcategory: "09-pyqs",
 tags: ["PYQ", "NEET PG 2025"],
 text: "A research study is designed to compare hemoglobin levels between two independent population groups. Which of the following statistical tests is most appropriate to determine whether the difference in mean hemoglobin levels between the two groups is statistically significant?",
 options: [{"id": "A", "text": "ANOVA test", "is_correct": false}, {"id": "B", "text": "Paired t-test", "is_correct": false}, {"id": "C", "text": "Unpaired t-test", "is_correct": true}, {"id": "D", "text": "Chi-square test", "is_correct": false}],
-explanation: "$1b",
+explanation: "Choosing the correct statistical test depends on the type of data and whether groups being compared are independent or related.<br><br>Why unpaired t-test is correct:<br><br>* The **unpaired (independent) t-test** is used to compare the means of a continuous variable (hemoglobin levels) between **two separate, independent groups**, which is exactly the scenario described here.<br><br>Why other options are incorrect:<br><br>* ANOVA test: Used to compare means across **three or more groups**, not just two.\n* Paired t-test: Used when comparing **the same group measured twice** (e.g., before-after), not two independent populations.\n* Chi-square test: Used to analyze **categorical (not continuous) data**, such as proportions, not mean hemoglobin values.",
 images: []
 },
 {
@@ -4098,7 +4098,7 @@ subcategory: "09-pyqs",
 tags: ["ZVRecommended", "PYQ", "INI-CET Nov 2023"],
 text: "In a study involving radiographic evaluations, two physicians independently assessed 100 chest X-rays. They calculated a Kappa statistic of 0.71 to measure inter-rater agreement. What does this Kappa value indicate about the level of agreement between the two doctors?",
 options: [{"id": "A", "text": "Slight", "is_correct": false}, {"id": "B", "text": "Fair", "is_correct": false}, {"id": "C", "text": "Moderate", "is_correct": false}, {"id": "D", "text": "Substantial", "is_correct": true}],
-explanation: "$1c",
+explanation: "The Kappa statistic quantifies inter-rater agreement beyond what would be expected by chance, and is interpreted using standard benchmark ranges (Landis and Koch scale).<br><br>Why substantial is correct:<br><br>* A **Kappa value of 0.71** falls within the **0.61\u20130.80 range**, which is classified as \"substantial\" agreement according to the standard interpretation scale, indicating strong concordance between the two physicians' assessments.<br><br>Why other options are incorrect:<br><br>* Slight: Corresponds to a **Kappa of 0.00\u20130.20**, far lower than 0.71.\n* Fair: Corresponds to a **Kappa of 0.21\u20130.40**, also well below the value given.\n* Moderate: Corresponds to a **Kappa of 0.41\u20130.60**, still lower than the substantial range that 0.71 falls into.",
 images: []
 },
 {
@@ -4548,7 +4548,7 @@ subcategory: "09-pyqs",
 tags: ["Controversial", "PYQ", "INI-CET Nov 2023"],
 text: "A 32-year-old woman with no significant medical history, who has been using depot medroxyprogesterone acetate (DMPA) for contraception, presents to the clinic after missing her scheduled injection by 14 days. She denies any sexual activity since her last injection. Her last menstrual period was 10 weeks ago, and she has no signs of pregnancy. What is the most appropriate recommendation for this patient regarding contraception?",
 options: [{"id": "A", "text": "UPT before DMPA", "is_correct": false}, {"id": "B", "text": "Give DMPA", "is_correct": true}, {"id": "C", "text": "Give DMPA with 7 days of barrier", "is_correct": false}, {"id": "D", "text": "Wait till next period", "is_correct": false}],
-explanation: "$19",
+explanation: "DMPA (Depot medroxyprogesterone acetate) injections have a defined grace period for reinjection, beyond which additional precautions may be needed.<br><br>Why giving DMPA is correct:<br><br>* DMPA has a **2-week (14-day) grace period** after the scheduled injection date, during which the next dose can be given without any additional precautions, as long as there's **no recent unprotected intercourse** (confirmed here, since she denies sexual activity) and **no signs/symptoms of pregnancy**.<br><br>Why other options are incorrect:<br><br>* UPT before DMPA: Is **not required** within the grace period when there's no risk of pregnancy, as in this case.\n* DMPA with 7 days of barrier: Backup contraception is needed only if **the grace period has been exceeded** or there's uncertainty about recent intercourse, neither of which applies here.\n* Wait till next period: Is **unnecessary and would leave the patient without contraceptive cover**, since DMPA can be safely given within the grace period.",
 images: []
 },
 {
@@ -4588,7 +4588,7 @@ subcategory: "09-pyqs",
 tags: ["PYQ", "FMGE Jul 2025"],
 text: "A 4-year-old girl is rescued from a building collapse after an earthquake. She presents with severe swelling of the foot and a painful laceration. According to disaster triage protocol, which color category should be assigned to her?",
 options: [{"id": "A", "text": "Red", "is_correct": false}, {"id": "B", "text": "Yellow", "is_correct": true}, {"id": "C", "text": "Green", "is_correct": false}, {"id": "D", "text": "Black", "is_correct": false}],
-explanation: "$1a",
+explanation: "Disaster triage uses a color-coded system to prioritize treatment based on injury severity and survivability.<br><br>Why yellow is correct:<br><br>* **Yellow (delayed)** category is assigned to patients with **significant but non-life-threatening injuries**, such as this child's foot swelling and laceration, who can safely tolerate a delay in treatment without immediate risk to life.<br><br>Why other options are incorrect:<br><br>* Red: Reserved for patients with **immediate, life-threatening injuries** requiring urgent intervention, which does not match this child's stable, non-critical presentation.\n* Green: Reserved for patients with **minor injuries who can walk and wait** for extended periods, but this child has a notable injury requiring medical attention, not just minor care.\n* Black: Reserved for patients who are **deceased or have unsurvivable injuries**, not applicable to this stable child.",
 images: []
 },
 {
@@ -4598,7 +4598,7 @@ subcategory: "09-pyqs",
 tags: ["PYQ", "FMGE Jul 2025"],
 text: "Which of the following conditions allows the safe use of combined oral contraceptive pills (OCPs)?",
 options: [{"id": "A", "text": "Hypertension", "is_correct": false}, {"id": "B", "text": "Hyperlipidemia", "is_correct": false}, {"id": "C", "text": "Diabetes", "is_correct": false}, {"id": "D", "text": "HIV", "is_correct": true}],
-explanation: "$1b",
+explanation: "Combined oral contraceptive pills (OCPs) have several absolute and relative contraindications based on cardiovascular and metabolic risk.<br><br>Why HIV is correct:<br><br>* **HIV infection alone (without AIDS-defining illness)** is not a contraindication to combined OCPs, and WHO Medical Eligibility Criteria classify it as generally safe for use, making it the correct \"safe\" option among those listed.<br><br>Why other options are incorrect:<br><br>* Hypertension: Particularly if **uncontrolled or severe**, is a contraindication due to increased risk of stroke and cardiovascular events with estrogen-containing OCPs.\n* Hyperlipidemia: Increases the **risk of thromboembolic and cardiovascular complications**, making OCP use cautioned or contraindicated depending on severity.\n* Diabetes: Especially with **vascular complications**, is a relative-to-absolute contraindication due to increased cardiovascular risk with estrogen-containing pills.",
 images: []
 },
 {
@@ -4698,7 +4698,7 @@ subcategory: "09-pyqs",
 tags: ["ZVRecommended", "PYQ", "INI-CET Nov 2023"],
 text: "A diabetic patient's fasting blood glucose level is found to be 160 mg/dL. What will you advise the patient regarding non-pharmacological management?",
 options: [{"id": "A", "text": "At least 80g dietary fibre", "is_correct": false}, {"id": "B", "text": "<5 g salt intake everyday", "is_correct": false}, {"id": "C", "text": "< 30% of the calories should come from fat", "is_correct": true}, {"id": "D", "text": "Cholesterol < 100g", "is_correct": false}],
-explanation: "$1c",
+explanation: "Dietary management is a cornerstone of non-pharmacological therapy in diabetes, with specific recommended macronutrient targets.<br><br>Why <30% calories from fat is correct:<br><br>* Standard diabetic dietary guidelines recommend that **fat should constitute less than 30% of total daily caloric intake**, helping reduce cardiovascular risk and improve glycemic control alongside other lifestyle measures.<br><br>Why other options are incorrect:<br><br>* At least 80g dietary fibre: The recommended fiber intake is **considerably lower (around 25\u201340g/day)**, not 80g.\n* <5g salt intake daily: While **salt restriction is advised for hypertension/cardiovascular protection**, the specific value and emphasis here is less central to standard diabetic dietary counseling compared to fat restriction.\n* Cholesterol <100g: Dietary cholesterol targets are measured in **milligrams (typically <300mg/day), not grams**, making this option numerically and conceptually incorrect.",
 images: []
 },
 {
@@ -4768,7 +4768,7 @@ subcategory: "09-pyqs",
 tags: ["ZVRecommended", "PYQ", "NEET PG 2025"],
 text: "According to the Infant and Young Child Feeding (IYCF) Guidelines, how much additional cereal-based food should be introduced to a 7-month-old breastfed infant at the initiation of complementary feeding?",
 options: [{"id": "A", "text": "\u00bd to full Katori 3 times a day", "is_correct": true}, {"id": "B", "text": "\u00bd to full Katori 4 times a day", "is_correct": false}, {"id": "C", "text": "\u00bd to full Katori 5 times a day", "is_correct": false}, {"id": "D", "text": "\u00bd to full Katori 6 times a day", "is_correct": false}],
-explanation: "$1d",
+explanation: "The IYCF guidelines specify exact quantities and frequencies of complementary feeding based on the infant's age to ensure adequate growth.<br><br>Why \u00bd to full katori 3 times a day is correct:<br><br>* At **6\u20138 months of age**, IYCF guidelines recommend starting complementary feeding with **\u00bd to a full katori of semi-solid (cereal-based) food, 3 times a day**, in addition to continued breastfeeding, to meet the infant's increasing nutritional needs.<br><br>Why other options are incorrect:<br><br>* 4, 5, or 6 times a day: These **higher frequencies are recommended for older infants** (9\u201311 months and 12\u201323 months respectively), as feeding frequency progressively increases with age, not at the initiation of complementary feeding at 6\u20138 months.",
 images: []
 },
 {
@@ -4778,7 +4778,7 @@ subcategory: "09-pyqs",
 tags: ["PYQ", "NEET PG 2022"],
 text: "Which agency offers seeds and manure as part of applied nutrition programs in schools?",
 options: [{"id": "A", "text": "CARE", "is_correct": false}, {"id": "B", "text": "UNDP", "is_correct": false}, {"id": "C", "text": "UNICEF", "is_correct": true}, {"id": "D", "text": "WHO", "is_correct": false}],
-explanation: "$1e",
+explanation: "Several national and international agencies support applied nutrition programs in India, each with specific roles.<br><br>Why UNICEF is correct:<br><br>* **UNICEF** has historically supported India's Applied Nutrition Programme by providing inputs such as **seeds, manure, and agricultural support** to promote kitchen gardens and improve child nutrition at the community/school level.<br><br>Why other options are incorrect:<br><br>* CARE: Primarily known for **food aid and relief assistance**, not specifically for providing seeds/manure inputs in applied nutrition programs.\n* UNDP: Focuses on **broader developmental and governance programs**, not direct agricultural inputs for nutrition.\n* WHO: Focuses on **health policy, disease control, and technical guidance**, not on providing agricultural inputs like seeds and manure.",
 images: []
 },
 {
@@ -4888,7 +4888,7 @@ subcategory: "09-pyqs",
 tags: ["ZVRecommended", "PYQ", "NEET PG 2025"],
 text: "A 3-year-old child has a long-standing history of rickets and malnutrition. The child\u2019s growth is below the 5th percentile, and there has been no exposure to sunlight. Which of the following national programs specifically addresses nutritional deficiencies among children below 6 years of age?",
 options: [{"id": "A", "text": "Anemia Mukt Bharat Program", "is_correct": false}, {"id": "B", "text": "ICDS Program", "is_correct": true}, {"id": "C", "text": "National Nutritional Anemia Prophylaxis Program", "is_correct": false}, {"id": "D", "text": "Mid-day meal program", "is_correct": false}],
-explanation: "$1f",
+explanation: "Several national programs address child health, but only specific ones are designed comprehensively for nutritional deficiencies in young children.<br><br>Why ICDS Program is correct:<br><br>* The **Integrated Child Development Services (ICDS) Program** specifically targets children **below 6 years of age**, providing supplementary nutrition, health check-ups, immunization, and growth monitoring to address conditions like malnutrition and rickets, exactly matching this child's profile.<br><br>Why other options are incorrect:<br><br>* Anemia Mukt Bharat Program: Focuses specifically on **reducing anemia (iron-folic acid supplementation)**, not broad nutritional deficiencies like rickets/growth failure.\n* National Nutritional Anemia Prophylaxis Program: Is **specifically targeted at anemia prevention**, not general malnutrition across multiple deficiencies.\n* Mid-day meal program: Targets **school-going children (typically above 6 years)**, not children below 6 years as specified in the question.",
 images: []
 },
 {
@@ -4898,7 +4898,7 @@ subcategory: "09-pyqs",
 tags: ["ZVRecommended", "Controversial", "PYQ", "NEET PG 2025"],
 text: "Under WIFS (Weekly Iron Folic Acid Supplementation) program, what is the weekly dose of Iron Folic Acid that is given to Adolescents 10-19 years of age?",
 options: [{"id": "A", "text": "Iron \u2013 20 mg, Folic acid \u2013 100 mcg", "is_correct": false}, {"id": "B", "text": "Iron \u2013 45 mg, Folic acid \u2013 400 mcg", "is_correct": false}, {"id": "C", "text": "Iron \u2013 60 mg, Folic acid \u2013 500 mcg", "is_correct": false}, {"id": "D", "text": "Iron \u2013 100 mg, Folic acid \u2013 500 mcg", "is_correct": true}],
-explanation: "$20",
+explanation: "The Weekly Iron Folic Acid Supplementation (WIFS) program has specific dosing for different age groups, including adolescents.<br><br>Why Iron 100mg + Folic acid 500mcg is correct:<br><br>* Under **WIFS**, adolescents aged **10\u201319 years** receive a weekly dose of **100mg elemental iron and 500mcg folic acid**, given once a week to prevent and control iron deficiency anemia in this age group.<br><br>Why other options are incorrect:<br><br>* Iron 20mg, Folic acid 100mcg: This **lower dose does not match** the WIFS adolescent dosing schedule.\n* Iron 45mg, Folic acid 400mcg: This combination **does not correspond** to the standard WIFS adolescent dose.\n* Iron 60mg, Folic acid 500mcg: While the folic acid dose matches, the **iron dose of 60mg is incorrect** for the WIFS adolescent schedule, which specifies 100mg.",
 images: []
 },
 {
@@ -4948,7 +4948,7 @@ subcategory: "09-pyqs",
 tags: ["ZVRecommended", "PYQ", "INI-CET Nov 2023"],
 text: "A 70-year-old patient with a history of progressive vision loss is scheduled for cataract surgery under the National Program for Control of Blindness and Visual Impairment. Which of the following is NOT an accurate guideline or inclusion criterion for cataract surgery within this national program?",
 options: [{"id": "A", "text": "Patients requiring cataract surgeries are selected and asked to report to base hospital", "is_correct": false}, {"id": "B", "text": "Perform more small incision cataract surgery", "is_correct": false}, {"id": "C", "text": "To do surgery in rural area with make shift hospital/Ots", "is_correct": true}, {"id": "D", "text": "To perform surgeries in fixed facility surgery by shifting patients from rural area", "is_correct": false}],
-explanation: "$21",
+explanation: "The National Program for Control of Blindness and Visual Impairment (NPCB&VI) has specific, standardized guidelines for delivering cataract surgery services, particularly in rural areas.<br><br>Why \"surgery in rural area with makeshift hospital/OTs\" is the exception:<br><br>* The program's protocol explicitly **discourages performing surgery in makeshift or improvised rural facilities**, instead emphasizing that patients should be transported to **fixed, properly equipped surgical facilities** to ensure surgical safety and quality outcomes.<br><br>Why other options are accurate guidelines (and thus incorrect as the answer):<br><br>* Patients selected and asked to report to base hospital: This **is an accurate component** of the program's case identification and referral pathway.\n* Performing more small incision cataract surgery: This **is an accurate guideline**, as SICS is promoted for its safety, speed, and suitability in high-volume settings.\n* Performing surgeries in fixed facilities by shifting patients from rural areas: This **is the correct, recommended approach**, contrasting with the makeshift-hospital option which is not recommended.",
 images: []
 },
 {
@@ -4968,7 +4968,7 @@ subcategory: "09-pyqs",
 tags: ["PYQ", "FMGE Jul 2025"],
 text: "What is the name of the online portal used for delivering mental healthcare services via telephone and other digital platforms for mental disorders such as schizophrenia, under the National Mental Health Programme?",
 options: [{"id": "A", "text": "NIKSHAY", "is_correct": false}, {"id": "B", "text": "Tele-manas", "is_correct": true}, {"id": "C", "text": "Quinitin", "is_correct": false}, {"id": "D", "text": "U-Win", "is_correct": false}],
-explanation: "$22",
+explanation: "India has launched several digital health initiatives, and recognizing the one specific to mental health service delivery is a frequently tested concept.<br><br>Why Tele-MANAS is correct:<br><br>* **Tele-MANAS (Tele Mental Health Assistance and Networking Across States)** is the national online/telephone-based portal launched under the National Mental Health Programme to provide accessible mental healthcare services, including for conditions like schizophrenia, via telephone and digital platforms across India.<br><br>Why other options are incorrect:<br><br>* NIKSHAY: Is the digital platform used for **tuberculosis case management and notification**, unrelated to mental health.\n* Quinitin: Is **not a recognized national health portal or program** related to mental health services.\n* U-Win: Is the digital platform for **immunization/vaccination tracking**, not mental health service delivery.",
 images: []
 },
 {
@@ -4988,7 +4988,7 @@ subcategory: "09-pyqs",
 tags: ["Controversial", "ZVRecommended", "PYQ", "INI-CET Nov 2024"],
 text: "Which of the following is the challenge faced in the operationalization of the concept of Universal Health Coverage (UHC)?",
 options: [{"id": "A", "text": "Universal Health Coverage aims to provide free health care services to all, regardless of the available resources in the country", "is_correct": false}, {"id": "B", "text": "Universal Health Coverage aims to provide services despite having unregulated and fragmented healthcare delivery systems", "is_correct": true}, {"id": "C", "text": "Universal Health Coverage prioritizes the safety of resources in a low-resource setting", "is_correct": false}, {"id": "D", "text": "Universal Health Coverage targets primary health care delivery based on the needs of the population", "is_correct": false}],
-explanation: "$23",
+explanation: "Universal Health Coverage (UHC) aims to ensure all people receive needed health services without financial hardship, but its real-world implementation faces structural challenges.<br><br>Why fragmented and unregulated delivery systems is correct:<br><br>* A major practical challenge to achieving UHC is that many health systems, especially in low- and middle-income countries, have **unregulated, fragmented healthcare delivery** involving multiple uncoordinated public and private providers, which makes consistent, equitable service delivery difficult to achieve.<br><br>Why other options are incorrect:<br><br>* Providing free care regardless of resources: This describes an **aspirational goal of UHC**, not a challenge; UHC is actually designed to be tailored to available resources, not promise unlimited free care irrespective of them.\n* Prioritizing safety of resources: This is a **general principle, not a recognized specific operational challenge** of UHC.\n* Targeting needs-based primary care delivery: This describes a **core design feature of UHC**, not an obstacle to its implementation.",
 images: []
 },
 {
@@ -4998,7 +4998,7 @@ subcategory: "09-pyqs",
 tags: ["PYQ", "INI-CET Nov 2024"],
 text: "All of the following are the components of Anemia Mukt Bharat Programme except:",
 options: [{"id": "A", "text": "6 departments", "is_correct": true}, {"id": "B", "text": "6 beneficiaries", "is_correct": false}, {"id": "C", "text": "6 institutional mechanisms", "is_correct": false}, {"id": "D", "text": "6 interventions", "is_correct": false}],
-explanation: "$24",
+explanation: "The Anemia Mukt Bharat (AMB) Programme is structured around a defined \"6x6x6\" strategy framework targeting anemia reduction across the life cycle.<br><br>Why \"6 departments\" is the exception:<br><br>* The AMB strategy is built around **6 target beneficiary groups, 6 interventions, and 6 institutional mechanisms** \u2014 \"6 departments\" is **not one of the official defined components** of this framework.<br><br>Why other options are correct components (and thus incorrect as the answer):<br><br>* 6 beneficiaries: Refers to the **6 target groups** (e.g., children, adolescents, pregnant/lactating women, women of reproductive age) that the program is designed to address.\n* 6 institutional mechanisms: Refers to the **6 structural/administrative mechanisms** put in place to support program delivery and monitoring.\n* 6 interventions: Refers to the **6 specific intervention strategies** (such as supplementation, deworming, fortification, and others) used to combat anemia under the program.",
 images: []
 },
 {
@@ -5228,7 +5228,7 @@ subcategory: "09-pyqs",
 tags: ["PYQ", "FMGE Jul 2025"],
 text: "A man working as a mason in a sand mine for a Kota stone factory in Rajasthan presents with the chest X-ray, as shown below. Which of the following occupational exposures is the most likely contributing factor to his condition?",
 options: [{"id": "A", "text": "Silicosis", "is_correct": true}, {"id": "B", "text": "Asbestosis", "is_correct": false}, {"id": "C", "text": "Bagassosis", "is_correct": false}, {"id": "D", "text": "Anthracosis", "is_correct": false}],
-explanation: "$19",
+explanation: "Occupational exposure history combined with radiographic findings points toward a specific pneumoconiosis common in stone/sand mining work.<br><br>Why silicosis is correct:<br><br>* **Silica dust exposure**, common in sand mining and stone-cutting/quarrying occupations like Kota stone factory work, causes silicosis, classically showing **nodular opacities, particularly in the upper lung zones**, with possible \"eggshell\" calcification of hilar lymph nodes on chest X-ray.<br><br>Why other options are incorrect:<br><br>* Asbestosis: Caused by **asbestos fiber exposure** (shipbuilding, insulation work), typically showing **lower lobe** linear/reticular opacities and pleural plaques, not matching this occupational history.\n* Bagassosis: Caused by exposure to **moldy sugarcane bagasse dust**, unrelated to sand/stone mining.\n* Anthracosis: Caused by **coal dust exposure** in coal mining, not sand/stone mining as described here.",
 images: [{"url": "https://corebtr-assets-production.s3.ap-south-1.amazonaws.com/questions_image/01KN1SZAGK64NCC4G8APHM806W.jpg", "caption": ""}]
 },
 {
